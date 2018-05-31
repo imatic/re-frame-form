@@ -5,6 +5,10 @@
 
 Library to privide some common functionality for forms in [re-frame](https://github.com/Day8/re-frame).
 
+## Installation notes
+
+As this library is using [re-frame-debux](https://github.com/Day8/re-frame-debux), you need to include appropriate library for your env. See [here](https://github.com/Day8/re-frame-debux#two-libraries) for details.
+
 ## Api
 
 This section assumes that code is written in file with following requires:
