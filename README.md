@@ -1,3 +1,4 @@
+[![Clojars Project](https://img.shields.io/clojars/v/imatic/re-frame-form.svg)](https://clojars.org/imatic/re-frame-form)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 # re-frame-form
