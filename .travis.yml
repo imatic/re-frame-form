@@ -1,0 +1,18 @@
+language: clojure
+lein: 2.8.1
+before_script:
+
+jobs:
+  include:
+    - stage: deploy
+      script:
+        - 'cd examples/re-frame-form'
+        - 'lein with-profile prod cljsbuild once min'
+      deploy:
+        provider: pages
+        skip-cleanup: true
+        github-token: $GITHUB_TOKEN
+        keep-history: true
+        local-dir: examples/re-frame-form/resources/public
+        on:
+          branch: master

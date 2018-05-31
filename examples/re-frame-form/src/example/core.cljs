@@ -85,3 +85,6 @@
   (reagent/as-element [:<>
                        [registration-form]
                        [form-data :registration]]))
+
+(when-not goog.DEBUG
+  (devcards.core/start-devcard-ui!))
