@@ -5,5 +5,5 @@
   :dependencies [[org.clojure/clojure "1.9.0"]
                  [org.clojure/clojurescript "1.10.238"]
                  [re-frame "0.10.5"]
-                 [reagent "0.8.1"]])
-
+                 [reagent "0.8.1"]
+                 [day8.re-frame/tracing-stubs "0.5.1" :scope "provided"]])
